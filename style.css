@@ -13,6 +13,10 @@ body{
     background-color: #40009e;
     overflow: hidden;
     -webkit-tap-highlight-color: transparent;
+     -webkit-user-select: none;
+     -ms-user-select: none;
+    -moz-user-select:none;
+    user-select: none;
 }
 .container{
     height: 100vh;
