@@ -77,7 +77,12 @@ body{
     position: relative;
     padding: 15px;
     margin-inline: 10px;
-    overflow: hidden;
+    overflow:hidden;
+    overflow-x: scroll;
+}
+.screen::-webkit-scrollbar{
+  height:0px;
+  width:0px;
 }
 .scrple{
     height: 100%;
